@@ -1,0 +1,100 @@
+html {
+  box-sizing: border-box;
+}
+
+*, *::before, *::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+body {
+  font-family: "Lexend Deca", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #f2f2f2;
+}
+
+.cards {
+  display: flex;
+  flex-direction: column;
+  border-radius: 8px;
+  margin: 88px 24px;
+  overflow: hidden;
+  max-width: 920px;
+}
+@media (min-width: 375px) {
+  .cards {
+    flex-direction: row;
+    margin: 0;
+  }
+}
+
+.card-body {
+  padding: 48px;
+}
+.card-icon {
+  display: block;
+  margin-bottom: 35px;
+}
+.card-title {
+  font-family: "Big Shoulders Display", cursive;
+  font-weight: 700;
+  font-size: 40px;
+  color: #f2f2f2;
+  text-transform: uppercase;
+  margin-bottom: 25px;
+}
+.card-description {
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 1.65;
+  color: rgba(255, 255, 255, 0.75);
+  margin-bottom: 32px;
+}
+@media (min-width: 375px) {
+  .card-description {
+    margin-bottom: 90px;
+  }
+}
+.card-btn {
+  display: inline-block;
+  font-size: 15px;
+  font-weight: 400;
+  padding: 11px 30px;
+  border-radius: 24px;
+  text-decoration: none;
+  background-color: #f2f2f2;
+  border: 2px solid #f2f2f2;
+  transition: all 200ms ease-in-out;
+}
+.card-btn:hover {
+  color: #f2f2f2 !important;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.card-1 {
+  background-color: #e38826;
+}
+.card-1 .card-btn {
+  color: #e38826;
+}
+
+.card-2 {
+  background-color: #006970;
+}
+.card-2 .card-btn {
+  color: #006970;
+}
+
+.card-3 {
+  background-color: #004241;
+}
+.card-3 .card-btn {
+  color: #004241;
+}
+
+/*# sourceMappingURL=main.css.map */
