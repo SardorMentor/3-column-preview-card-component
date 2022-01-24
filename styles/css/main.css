@@ -17,6 +17,12 @@ body {
   background-color: #f2f2f2;
 }
 
+@media (min-width: 375px) {
+  main {
+    padding-top: 42px;
+  }
+}
+
 .cards {
   display: flex;
   flex-direction: column;
